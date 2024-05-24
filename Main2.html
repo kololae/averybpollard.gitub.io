@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avery Pollard's Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ecf0f1;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .linkedin-button {
+            background: #0077b5;
+            color: white;
+            padding: 5px 5px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+        .linkedin-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 40px;
+        }
+        .linkedin-button:hover {
+            background: #005582;
+        }
+        .linkedin-container {
+            display: flex;
+            align-items: center;
+        }
+        .linkedin-container a {
+            margin-left: 10px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills .skill {
+            flex: 1 0 21%; /* Adjust the width based on how many skills you want per row */
+            margin: 10px;
+            padding: 10px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .skills .skill p {
+            margin: 0;
+        }
+        .portfolio, .testimonials {
+            margin: 20px 0;
+        }
+        .portfolio img, .testimonials img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .portfolio-item, .testimonial-item {
+            margin-bottom: 20px;
+        }
+        .testimonial-item {
+            display: flex;
+            align-items: center;
+        }
+        .testimonial-item img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: none;
+        }
+        .back-to-top:hover {
+            background: #1a252f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <div>
+                <h1>Avery Pollard</h1>
+                <p>Email: <a href="mailto:averypollard@icloud.com">averypollard@icloud.com</a></p>
+                <p>Phone: 919-592-1877</p>
+                <p>Location: Raleigh, NC</p>
+            </div>
+            <div class="linkedin-container">
+                <a href="https://www.linkedin.com/in/avery-pollard-899b79258/" class="linkedin-button">
+                    <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn">
+
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>Dedicated cybersecurity professional with an Associate of Applied Science (AAS) in Cybersecurity and a diverse background in technical support, customer service, and military operations. Currently preparing for the CompTIA Security+ exam. Proven ability to troubleshoot complex issues, maintain security protocols, and provide excellent customer service.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <p>Associate of Applied Science in Cybersecurity</p>
+            <p>Wake Tech Community College, Raleigh, NC</p>
+            <p>Graduated: May 2024</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li>CompTIA Security+ (In progress)</li>
+                <li>IT: Cyber Operations & Digital Forensics (Wake Tech)</li>
+                <li>IT: Penetration Testing & Ethical Hacking (Wake Tech)</li>
+                <li>Information Technology: IT Foundations (Wake Tech)</li>
+                <li>IT Specialist – Python Language</li>
+                <li>Networking Basics (Badge) - Cisco</li>
+                <li>Intro to Cybersecurity (Badge) - Cisco</li>
+                <li>AWS Cloud Quest: Cloud Practitioner (Badge) – AWS Training</li>
+                <li>Secret Security Clearance – United States Coast Guard</li>
+                <li>CCNA: Introduction to Networks (Badge) - Cisco</li>
+                <li>Network Addressing and Basic Troubleshooting (Badge) – Cisco</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills">
+                <div class="skill"><p>Cybersecurity Fundamentals</p></div>
+                <div class="skill"><p>Network Security</p></div>
+                <div class="skill"><p>Python Programming</p></div>
+                <div class="skill"><p>AWS Cloud Services</p></div>
+                <div class="skill"><p>Network Troubleshooting</p></div>
+                <div class="skill"><p>Customer Support</p></div>
+                <div class="skill"><p>Technical Documentation</p></div>
+                <div class="skill"><p>RangeForce Cybersecurity Training</p></div>
+                <div class="skill"><p>Splunk</p></div>
+            </div>
+        </div>
+
+
+
+        <div class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            <h3>Carolina Cyber Center</h3>
+            <p>Remote SOC Analyst Intern</p>
+            <p>February 2024 – Present</p>
+            <ul>
+                <li>Participating in hands-on cybersecurity training using RangeForce to enhance skills in threat detection and response.</li>
+                <li>Gaining practical experience in cybersecurity tools and techniques through real-world simulations and exercises.</li>
+            </ul>
+
+            <h3>Field Environmental Instruments</h3>
+            <p>Equipment Technician / Customer Accounts</p>
+            <p>July 2022 – Present</p>
+            <ul>
+                <li>Address customer needs, concerns, and feedback about FEI equipment.</li>
+                <li>Provide product knowledge and troubleshoot field instrument issues promptly.</li>
+                <li>Maintain accurate records of customer interactions and resolutions.</li>
+                <li>Establish strong relationships with customers to promote loyalty and repeat business.</li>
+                <li>Follow up with customers to ensure satisfaction and address any further issues.</li>
+            </ul>
+
+            <h3>United States Coast Guard</h3>
+            <p>Petty Officer Third Class</p>
+            <p>June 2015 – October 2021</p>
+            <ul>
+                <li>Assisted in the planning and execution of over 20 mounted and dismounted operations.</li>
+                <li>Supported protection of the president during gatherings and events.</li>
+                <li>Maintained accountability for over $100,000 worth of equipment, including weapons and night vision goggles.</li>
+                <li>Conducted thorough inspections to ensure compliance with regulations.</li>
+                <li>Responded promptly and efficiently to emergency situations.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Additional Information</h2>
+            <ul>
+                <li>Email Etiquette: Proficient in professional email communication, including proper greetings, signatures, and tone.</li>
+                <li>Customer Service: Utilized customer-focused language to show genuine interest and concern for customer needs.</li>
+            </ul>
+        </div>
+
+        <a href="#" class="back-to-top">Back to Top</a>
+    </div>
+    <script>
+        // Show or hide the "Back to Top" button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
